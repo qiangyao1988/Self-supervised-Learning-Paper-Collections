@@ -16,6 +16,10 @@ Descrption: This paper first demonstrates that optimal views for contrastive rep
 Descrption: This paper identifies alignment (closeness) of features from positive parits and uniformity of the induced distribution of the features on the hypersphere are two key propoerties in contrastive loss. The authors popose quantifiable metrics to evaluate the representation quality for these two kinds of features. 
 
 ## Computer Vision
+- **A Simple Framework for Contrastive Learning of Visual Representations**
+[[Paper]](https://arxiv.org/pdf/2002.05709.pdf)
+[[Code]](https://github.com/google-research/simclr)<br>
+Descrption: This paper introduces a simple framework for contrastive learning of visual representations named SimCLR. It makes several contributions for cintrastive learning: (1)data augnentations play a citical role; (2)inroducecing a learnable nonlinear transformation; (3)demonstrating contrastive learning benifites from larger batch sizes and more training steps.
 
 ## Natural Language Processing
 - **Evaluating Models’ Local Decision Boundaries via Contrast Sets** 
@@ -27,6 +31,14 @@ Descrption: Contrast sets provide a local view of a model's decision boundary, w
 [[Paper]](https://arxiv.org/pdf/2012.02943.pdf)<br>
 Descrption: This paper applies two data augmentation methods, i.e., synonym subtituion and back translation, to define pretext taks in contrastive learning. 
 
-
+## Others
+- **Contrastive Multi-View Representation Learning on Graphs**
+[[Paper]](https://arxiv.org/pdf/2006.05582.pdf)
+Descrption: This paper applis self-supervised approach to learn contrasting sturctural views of graphs. The authors mention contrasting encodings form first-order neighbors and a graph conffusion is more effective than multi-scale encodings in some graph classiification benchmarks. 
 
 ## Blogs 
+- **Self-Supervised Representation Learning**
+[[Link]](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html)
+
+- **Contrastive Learning**
+[[Link]](https://github.com/HobbitLong/PyContrast)
