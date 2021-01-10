@@ -19,7 +19,7 @@ Descrption: This paper identifies alignment (closeness) of features from positiv
 - **A Simple Framework for Contrastive Learning of Visual Representations**
 [[Paper]](https://arxiv.org/pdf/2002.05709.pdf)
 [[Code]](https://github.com/google-research/simclr)<br>
-Descrption: This paper introduces a simple framework for contrastive learning of visual representations named SimCLR. It makes several contributions for cintrastive learning: (1)data augnentations play a citical role; (2)inroducecing a learnable nonlinear transformation; (3)demonstrating contrastive learning benifites from larger batch sizes and more training steps.
+Descrption: This paper introduces a simple framework for contrastive learning of visual representations named SimCLR. It makes several contributions for cintrastive learning: (1) data augnentations play a citical role; (2) inroducecing a learnable nonlinear transformation; (3) demonstrating contrastive learning benifites from larger batch sizes and more training steps.
 
 ## Natural Language Processing
 - **Evaluating Models’ Local Decision Boundaries via Contrast Sets** 
@@ -33,7 +33,7 @@ Descrption: This paper applies two data augmentation methods, i.e., synonym subt
 
 ## Others
 - **Contrastive Multi-View Representation Learning on Graphs**
-[[Paper]](https://arxiv.org/pdf/2006.05582.pdf)
+[[Paper]](https://arxiv.org/pdf/2006.05582.pdf)<br>
 Descrption: This paper applis self-supervised approach to learn contrasting sturctural views of graphs. The authors mention contrasting encodings form first-order neighbors and a graph conffusion is more effective than multi-scale encodings in some graph classiification benchmarks. 
 
 ## Blogs 
