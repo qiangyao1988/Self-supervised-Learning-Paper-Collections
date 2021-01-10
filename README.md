@@ -1,5 +1,5 @@
 # Self-supervised Learning Paper Collections
- This repo lists recent self-supervised learning papers and includes their github pages. 
+ This repo lists recent self-supervised learning papers and their github pages. 
  
 ## General 
 
