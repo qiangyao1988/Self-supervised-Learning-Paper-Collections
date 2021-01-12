@@ -16,7 +16,7 @@ Descrption: This paper first demonstrates that optimal views for contrastive rep
 Descrption: This paper identifies alignment (closeness) of features from positive parits and uniformity of the induced distribution of the features on the hypersphere are two key propoerties in contrastive loss. The authors popose quantifiable metrics to evaluate the representation quality for these two kinds of features. 
 
 - **Towards Good Practices in Self-supervised Representation Learning**
-[[Paper]](https://sslneuips20.github.io/files/CameraReadys%203-77/35/CameraReady/neurips_2020.pdf)
+[[Paper]](https://sslneuips20.github.io/files/CameraReadys%203-77/35/CameraReady/neurips_2020.pdf)<br>
 Descrption: This paper presents several efficient practises in SSL. e.g., nonlinear projection head, strong data augmentation, and negative samples.
 
 
