@@ -26,6 +26,20 @@ Descrption: This paper presents several efficient practises in SSL. e.g., nonlin
 [[Code]](https://github.com/google-research/simclr)<br>
 Descrption: This paper introduces a simple framework for contrastive learning of visual representations named SimCLR. It makes several contributions for cintrastive learning: (1) data augnentations play a citical role; (2) inroducecing a learnable nonlinear transformation; (3) demonstrating contrastive learning benifites from larger batch sizes and more training steps.
 
+- **Self-Supervised Domain Adaptation with Consistency Training**
+[[Paper]](https://arxiv.org/pdf/2010.07539.pdf)
+[[Code]](https://github.com/Jiaolong/ss-da-consistency)<br>
+Descrption: This paper adds a consistency loss based on mutual information theory to the main taks loss and pretext loss in a domain adaption tasks. 
+
+- **Unsupervised Domain Adaptation through Self-Supervision**
+[[Paper]](https://arxiv.org/pdf/1909.11825.pdf)<br>
+Descrption: 
+
+- **Self-supervised Domain Adaptation for Computer Vision Tasks**
+[[Paper]](https://arxiv.org/pdf/1907.10915.pdf)<br>
+Descrption: 
+
+
 ## Natural Language Processing
 - **Evaluating Models’ Local Decision Boundaries via Contrast Sets** 
 [[Paper]](https://arxiv.org/pdf/2004.02709.pdf) 
@@ -35,6 +49,10 @@ Descrption: Contrast sets provide a local view of a model's decision boundary, w
 - **Cross-Domain Sentiment Classification With In-domain Contrastive Learning** 
 [[Paper]](https://arxiv.org/pdf/2012.02943.pdf)<br>
 Descrption: This paper applies two data augmentation methods, i.e., synonym subtituion and back translation, to define pretext taks in contrastive learning. 
+
+- **Contrast and Classify: Alternate Training for Robust VQA** 
+[[Paper]](https://arxiv.org/pdf/2010.06087.pdf)<br>
+Descrption: 
 
 ## Others
 - **Contrastive Multi-View Representation Learning on Graphs**
