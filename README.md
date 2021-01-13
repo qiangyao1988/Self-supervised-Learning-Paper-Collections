@@ -39,6 +39,15 @@ Descrption:
 [[Paper]](https://arxiv.org/pdf/1907.10915.pdf)<br>
 Descrption: 
 
+- **Universal Domain Adaptation through Self-Supervision**
+[[Paper]](https://arxiv.org/pdf/2002.07953.pdf)
+[[Code]](https://github.com/VisionLearningGroup/DANCE)<br>
+Descrption: This paper proposed two novel self-supervised techniques, such as neighborhood clustering and entropy separation, dealing with arbitory category shift in domain adaptation tasks. 
+
+- **Unsupervised Intra-domain Adaptation for Semantic Segmentation through Self-Supervision**
+[[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Pan_Unsupervised_Intra-Domain_Adaptation_for_Semantic_Segmentation_Through_Self-Supervision_CVPR_2020_paper.pdf)
+[[Code]](https://github.com/feipan664/IntraDA)<br>
+Descrption: This paper applied self-supervised technique to minimize both inter-domain and intra-domain gap simultaneously for domain adaptation tasks in semantic segmentation. 
 
 ## Natural Language Processing
 - **Evaluating Models’ Local Decision Boundaries via Contrast Sets** 
