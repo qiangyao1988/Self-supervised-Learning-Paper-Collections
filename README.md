@@ -39,6 +39,12 @@ Descrption:
 [[Paper]](https://arxiv.org/pdf/1907.10915.pdf)<br>
 Descrption: 
 
+- **Domain Generalization by Solving Jigsaw Puzzles**
+[[Paper]](https://arxiv.org/pdf/1903.06864.pdf)
+[[Code]](https://github.com/fmcarlucci/JigenDG)<br>
+Descrption: 
+
+
 - **Universal Domain Adaptation through Self-Supervision**
 [[Paper]](https://arxiv.org/pdf/2002.07953.pdf)
 [[Code]](https://github.com/VisionLearningGroup/DANCE)<br>
