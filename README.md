@@ -44,6 +44,14 @@ Descrption:
 [[Code]](https://github.com/fmcarlucci/JigenDG)<br>
 Descrption: 
 
+- **Big Self-Supervised Models are Strong Semi-Supervised Learners**
+[[Paper]](https://arxiv.org/pdf/2006.10029v1.pdf)
+[[Code]](https://github.com/google-research/simclr)<br>
+Descrption: The proposed semi-supervised learning framework comprises three steps: (1) unsupervised or self-supervised pretraining, (2) supervised fine-tuning, and (3) distillation using unlabeled data.
+
+- **Self-Supervised Learning of Pretext-Invariant Representations**
+[[Paper]](https://arxiv.org/pdf/1912.01991.pdf)<br>
+Descrption: PIRL learns representations that are invariant to the transformation t and retain semantic information.
 
 - **Universal Domain Adaptation through Self-Supervision**
 [[Paper]](https://arxiv.org/pdf/2002.07953.pdf)
