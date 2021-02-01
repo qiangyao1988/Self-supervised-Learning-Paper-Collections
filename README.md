@@ -21,10 +21,37 @@ Descrption: This paper presents several efficient practises in SSL. e.g., nonlin
 
 
 ## Computer Vision
+
+- **Adversarial Self-Supervised Contrastive Learning**
+[[Paper]](https://arxiv.org/pdf/2006.07589.pdf)<br>
+Descrption: 
+
 - **A Simple Framework for Contrastive Learning of Visual Representations**
 [[Paper]](https://arxiv.org/pdf/2002.05709.pdf)
 [[Code]](https://github.com/google-research/simclr)<br>
 Descrption: This paper introduces a simple framework for contrastive learning of visual representations named SimCLR. It makes several contributions for cintrastive learning: (1) data augnentations play a citical role; (2) inroducecing a learnable nonlinear transformation; (3) demonstrating contrastive learning benifites from larger batch sizes and more training steps.
+
+
+- **Bootstrap Your Own Latent A New Approach to Self-Supervised Learning**
+[[Paper]](https://arxiv.org/pdf/2006.07733.pdf)
+[[Code]](https://github.com/deepmind/deepmind-research/tree/master/byol)<br>
+Descrption: 
+
+
+- **Contrastive Learning with Hard Negative Samples**
+[[Paper]](https://arxiv.org/pdf/2010.04592.pdf)<br>
+Descrption: 
+
+- **Contrastive Learning with Adversarial Examples**
+[[Paper]](https://arxiv.org/pdf/2010.12050.pdf)<br>
+Descrption: 
+
+
+- **Momentum Contrast for Unsupervised Visual Representation Learning**
+[[Paper]](https://arxiv.org/pdf/1911.05722.pdf)
+[[Code]](https://github.com/facebookresearch/moco)<br>
+Descrption: 
+
 
 - **Self-Supervised Domain Adaptation with Consistency Training**
 [[Paper]](https://arxiv.org/pdf/2010.07539.pdf)
@@ -53,6 +80,14 @@ Descrption: The proposed semi-supervised learning framework comprises three step
 [[Paper]](https://arxiv.org/pdf/1912.01991.pdf)<br>
 Descrption: PIRL learns representations that are invariant to the transformation t and retain semantic information.
 
+
+
+
+- **Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning**
+[[Paper]](https://arxiv.org/pdf/1704.03976.pdf)<br>
+Descrption: 
+
+
 - **Universal Domain Adaptation through Self-Supervision**
 [[Paper]](https://arxiv.org/pdf/2002.07953.pdf)
 [[Code]](https://github.com/VisionLearningGroup/DANCE)<br>
@@ -77,10 +112,22 @@ Descrption: This paper applies two data augmentation methods, i.e., synonym subt
 [[Paper]](https://arxiv.org/pdf/2010.06087.pdf)<br>
 Descrption: 
 
+
+
+- **Self-Supervised Learning for Contextualized Extractive Summarization** 
+[[Paper]](https://www.aclweb.org/anthology/P19-1214.pdff)<br>
+Descrption: 
+
 ## Others
 - **Contrastive Multi-View Representation Learning on Graphs**
 [[Paper]](https://arxiv.org/pdf/2006.05582.pdf)<br>
 Descrption: This paper applis self-supervised approach to learn contrasting sturctural views of graphs. The authors mention contrasting encodings form first-order neighbors and a graph conffusion is more effective than multi-scale encodings in some graph classiification benchmarks. 
+
+- **Federated Self-Supervised Learning of Multi-Sensor Representations for Embedded Intelligence**
+[[Paper]](https://arxiv.org/pdf/2007.13018.pdf)<br>
+Descrption: 
+
+
 
 ## Blogs 
 - **Self-Supervised Representation Learning**
