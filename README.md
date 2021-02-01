@@ -31,10 +31,18 @@ Descrption:
 [[Code]](https://github.com/google-research/simclr)<br>
 Descrption: This paper introduces a simple framework for contrastive learning of visual representations named SimCLR. It makes several contributions for cintrastive learning: (1) data augnentations play a citical role; (2) inroducecing a learnable nonlinear transformation; (3) demonstrating contrastive learning benifites from larger batch sizes and more training steps.
 
+- **Big Self-Supervised Models are Strong Semi-Supervised Learners**
+[[Paper]](https://arxiv.org/pdf/2006.10029v1.pdf)
+[[Code]](https://github.com/google-research/simclr)<br>
+Descrption: The proposed semi-supervised learning framework comprises three steps: (1) unsupervised or self-supervised pretraining, (2) supervised fine-tuning, and (3) distillation using unlabeled data.
 
 - **Bootstrap Your Own Latent A New Approach to Self-Supervised Learning**
 [[Paper]](https://arxiv.org/pdf/2006.07733.pdf)
 [[Code]](https://github.com/deepmind/deepmind-research/tree/master/byol)<br>
+Descrption: 
+
+- **Contrast and Classify: Alternate Training for Robust VQA** 
+[[Paper]](https://arxiv.org/pdf/2010.06087.pdf)<br>
 Descrption: 
 
 
@@ -45,6 +53,13 @@ Descrption:
 - **Contrastive Learning with Adversarial Examples**
 [[Paper]](https://arxiv.org/pdf/2010.12050.pdf)<br>
 Descrption: 
+
+
+- **Domain Generalization by Solving Jigsaw Puzzles**
+[[Paper]](https://arxiv.org/pdf/1903.06864.pdf)
+[[Code]](https://github.com/fmcarlucci/JigenDG)<br>
+Descrption: 
+
 
 
 - **Momentum Contrast for Unsupervised Visual Representation Learning**
@@ -58,30 +73,20 @@ Descrption:
 [[Code]](https://github.com/Jiaolong/ss-da-consistency)<br>
 Descrption: This paper adds a consistency loss based on mutual information theory to the main taks loss and pretext loss in a domain adaption tasks. 
 
-- **Unsupervised Domain Adaptation through Self-Supervision**
-[[Paper]](https://arxiv.org/pdf/1909.11825.pdf)<br>
-Descrption: 
 
 - **Self-supervised Domain Adaptation for Computer Vision Tasks**
 [[Paper]](https://arxiv.org/pdf/1907.10915.pdf)<br>
 Descrption: 
 
-- **Domain Generalization by Solving Jigsaw Puzzles**
-[[Paper]](https://arxiv.org/pdf/1903.06864.pdf)
-[[Code]](https://github.com/fmcarlucci/JigenDG)<br>
-Descrption: 
 
-- **Big Self-Supervised Models are Strong Semi-Supervised Learners**
-[[Paper]](https://arxiv.org/pdf/2006.10029v1.pdf)
-[[Code]](https://github.com/google-research/simclr)<br>
-Descrption: The proposed semi-supervised learning framework comprises three steps: (1) unsupervised or self-supervised pretraining, (2) supervised fine-tuning, and (3) distillation using unlabeled data.
 
 - **Self-Supervised Learning of Pretext-Invariant Representations**
 [[Paper]](https://arxiv.org/pdf/1912.01991.pdf)<br>
 Descrption: PIRL learns representations that are invariant to the transformation t and retain semantic information.
 
-
-
+- **Towards Good Practices in Self-supervised Representation Learning**
+[[Paper]](https://arxiv.org/pdf/2012.00868.pdf)<br>
+Descrption: 
 
 - **Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning**
 [[Paper]](https://arxiv.org/pdf/1704.03976.pdf)<br>
@@ -93,24 +98,28 @@ Descrption:
 [[Code]](https://github.com/VisionLearningGroup/DANCE)<br>
 Descrption: This paper proposed two novel self-supervised techniques, such as neighborhood clustering and entropy separation, dealing with arbitory category shift in domain adaptation tasks. 
 
+
+- **Unsupervised Domain Adaptation through Self-Supervision**
+[[Paper]](https://arxiv.org/pdf/1909.11825.pdf)<br>
+Descrption: 
+
 - **Unsupervised Intra-domain Adaptation for Semantic Segmentation through Self-Supervision**
 [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Pan_Unsupervised_Intra-Domain_Adaptation_for_Semantic_Segmentation_Through_Self-Supervision_CVPR_2020_paper.pdf)
 [[Code]](https://github.com/feipan664/IntraDA)<br>
 Descrption: This paper applied self-supervised technique to minimize both inter-domain and intra-domain gap simultaneously for domain adaptation tasks in semantic segmentation. 
 
 ## Natural Language Processing
-- **Evaluating Models’ Local Decision Boundaries via Contrast Sets** 
-[[Paper]](https://arxiv.org/pdf/2004.02709.pdf) 
-[[Code]](https://allennlp.org/contrast-sets)<br>
-Descrption: Contrast sets provide a local view of a model's decision boundary, which can be used to more accurately evaluate a model's true linguistic capabilities. This paper proposed a new annotation paradigm for NLP to generate contrast samples. 
+
 
 - **Cross-Domain Sentiment Classification With In-domain Contrastive Learning** 
 [[Paper]](https://arxiv.org/pdf/2012.02943.pdf)<br>
 Descrption: This paper applies two data augmentation methods, i.e., synonym subtituion and back translation, to define pretext taks in contrastive learning. 
 
-- **Contrast and Classify: Alternate Training for Robust VQA** 
-[[Paper]](https://arxiv.org/pdf/2010.06087.pdf)<br>
-Descrption: 
+
+- **Evaluating Models’ Local Decision Boundaries via Contrast Sets** 
+[[Paper]](https://arxiv.org/pdf/2004.02709.pdf) 
+[[Code]](https://allennlp.org/contrast-sets)<br>
+Descrption: Contrast sets provide a local view of a model's decision boundary, which can be used to more accurately evaluate a model's true linguistic capabilities. This paper proposed a new annotation paradigm for NLP to generate contrast samples. 
 
 
 
