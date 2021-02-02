@@ -64,6 +64,9 @@ Descrption:
 [[Code]](https://github.com/facebookresearch/moco)<br>
 Descrption: 
 
+- **Prototypical Contrastive Learning of Unsupervised Representations**
+[[Paper]](https://arxiv.org/pdf/2005.04966.pdf)<br>
+Descrption: 
 
 - **Self-Supervised Domain Adaptation with Consistency Training**
 [[Paper]](https://arxiv.org/pdf/2010.07539.pdf)
