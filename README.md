@@ -6,6 +6,9 @@
 - **A Theoretical Analysis of Contrastive Unsupervised Representation Learning**
 [[Paper]](https://arxiv.org/pdf/1902.09229.pdf)<br>
 
+- **Self-supervised Visual Feature Learning with Deep Neural Networks A Survey**
+[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9086055&casa_token=lpa6IChv6PcAAAAA:2cLIsBwmEtpF2gxKT6iWZ39s68I1D8SBxKo-tk3GWtRqy31Dv4IlHSIHozhkb1kiiXeJ7nrB&tag=1)<br>
+
 - **Towards Good Practices in Self-supervised Representation Learning**
 [[Paper]](https://sslneuips20.github.io/files/CameraReadys%203-77/35/CameraReady/neurips_2020.pdf)<br>
 Descrption: This paper presents several efficient practises in SSL. e.g., nonlinear projection head, strong data augmentation, and negative samples.
@@ -81,7 +84,9 @@ Descrption:
 [[Paper]](https://arxiv.org/pdf/1904.06487.pdf)<br>
 Descrption: 
 
-
+- **Self-supervised Domain Adaptation for Computer Vision Tasks**
+[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8883232)<br>
+Descrption: 
 
 
 - **Self-Supervised Learning of Pretext-Invariant Representations**
