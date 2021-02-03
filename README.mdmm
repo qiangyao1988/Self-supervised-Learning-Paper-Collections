@@ -62,6 +62,18 @@ Descrption:
 [[Code]](https://github.com/fmcarlucci/JigenDG)<br>
 Descrption: 
 
+- **MixCo: -Mix: A Strategy for Regularizing Contrastive Representation Learning **
+[[Paper]](https://arxiv.org/pdf/2010.08887.pdfm)<br>
+Descrption: 
+
+
+
+- **MixCo: Mix-up Contrastive Learning for Visual Representation **
+[[Paper]](https://arxiv.org/pdf/2010.06300.pdf)<br>
+Descrption: 
+
+
+
 - **Momentum Contrast for Unsupervised Visual Representation Learning**
 [[Paper]](https://arxiv.org/pdf/1911.05722.pdf)
 [[Code]](https://github.com/facebookresearch/moco)<br>
@@ -86,6 +98,10 @@ Descrption:
 
 - **Self-supervised Domain Adaptation for Computer Vision Tasks**
 [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8883232)<br>
+Descrption: 
+
+- **Self-supervised Label Augmentation via Input Transformations**
+[[Paper]](https://arxiv.org/pdf/1910.05872.pdf)<br>
 Descrption: 
 
 
