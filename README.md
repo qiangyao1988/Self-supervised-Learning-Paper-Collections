@@ -6,6 +6,12 @@
 - **A Theoretical Analysis of Contrastive Unsupervised Representation Learning**
 [[Paper]](https://arxiv.org/pdf/1902.09229.pdf)<br>
 
+- **Predicting What You Already Know Helps: Provable Self-Supervised Learning**
+[[Paper]](https://arxiv.org/pdf/2008.01064.pdf)<br>
+
+- **Self-Supervised Learning for Large-Scale Unsupervised Image Clustering**
+[[Paper]](https://arxiv.org/pdf/2008.10312.pdf)<br>
+
 - **Self-supervised Visual Feature Learning with Deep Neural Networks A Survey**
 [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9086055&casa_token=lpa6IChv6PcAAAAA:2cLIsBwmEtpF2gxKT6iWZ39s68I1D8SBxKo-tk3GWtRqy31Dv4IlHSIHozhkb1kiiXeJ7nrB&tag=1)<br>
 
@@ -18,6 +24,14 @@ Descrption: This paper presents several efficient practises in SSL. e.g., nonlin
 [[Code]](https://ssnl.github.io/hypersphere/)<br>
 Descrption: This paper identifies alignment (closeness) of features from positive parits and uniformity of the induced distribution of the features on the hypersphere are two key propoerties in contrastive loss. The authors popose quantifiable metrics to evaluate the representation quality for these two kinds of features. 
 
+- **Understanding Self-supervised Learning with Dual Deep Networks**
+[[Paper]](https://arxiv.org/pdf/2010.00578.pdf)<br>
+Descrption: 
+
+- **Understanding self-supervised learning using controlled datasets with known structure**
+[[Paper]](https://sslneuips20.github.io/files/CameraReadys%203-77/64/CameraReady/Understanding_self_supervised_learning.pdf)<br>
+Descrption: 
+
 - **What Makes for Good Views for Contrastive Learning?**
 [[Paper]](https://arxiv.org/pdf/2005.10243.pdf)
 [[Code]](https://hobbitlong.github.io/InfoMin/)<br>
@@ -28,6 +42,14 @@ Descrption: This paper first demonstrates that optimal views for contrastive rep
 
 - **Adversarial Self-Supervised Contrastive Learning**
 [[Paper]](https://arxiv.org/pdf/2006.07589.pdf)<br>
+Descrption: 
+
+- **A critical analysis of self-supervision, or what we can learn from a single image**
+[[Paper]](https://arxiv.org/pdf/1904.13132.pdf)<br>
+Descrption: 
+
+ - **A Multi-view Perspective of Self-supervised Learning**
+[[Paper]](https://arxiv.org/pdf/2003.00877.pdf)<br>
 Descrption: 
 
 - **A Simple Framework for Contrastive Learning of Visual Representations**
@@ -62,6 +84,11 @@ Descrption:
 [[Code]](https://github.com/fmcarlucci/JigenDG)<br>
 Descrption: 
 
+- **Evaluation of Out-of-Distribution Detection Performance of Self-Supervised Learning in a Controllable Environment**
+[[Paper]](https://arxiv.org/pdf/2011.13120.pdf)<br>
+Descrption: 
+
+
 - **MixCo: -Mix: A Strategy for Regularizing Contrastive Representation Learning **
 [[Paper]](https://arxiv.org/pdf/2010.08887.pdfm)<br>
 Descrption: 
@@ -82,6 +109,11 @@ Descrption:
 - **Prototypical Contrastive Learning of Unsupervised Representations**
 [[Paper]](https://arxiv.org/pdf/2005.04966.pdf)<br>
 Descrption: 
+
+- **SelfMatch: Combining Contrastive Self-Supervision and Consistency for Semi-Supervised Learning**
+[[Paper]](https://arxiv.org/pdf/2101.06480.pdf)<br>
+Descrption: 
+
 
 - **Self-Supervised Domain Adaptation with Consistency Training**
 [[Paper]](https://arxiv.org/pdf/2010.07539.pdf)
@@ -108,6 +140,10 @@ Descrption:
 - **Self-Supervised Learning of Pretext-Invariant Representations**
 [[Paper]](https://arxiv.org/pdf/1912.01991.pdf)<br>
 Descrption: PIRL learns representations that are invariant to the transformation t and retain semantic information.
+
+- **S4L: Self-Supervised Semi-Supervised Learning**
+[[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhai_S4L_Self-Supervised_Semi-Supervised_Learning_ICCV_2019_paper.pdf)<br>
+Descrption: 
 
 - **Self-supervised Representation Learning with Relative Predictive Coding**
 [[Paper]](https://openreview.net/pdf?id=068E_JSq9O)<br>
@@ -150,8 +186,12 @@ Descrption: This paper applies two data augmentation methods, i.e., synonym subt
 [[Code]](https://allennlp.org/contrast-sets)<br>
 Descrption: Contrast sets provide a local view of a model's decision boundary, which can be used to more accurately evaluate a model's true linguistic capabilities. This paper proposed a new annotation paradigm for NLP to generate contrast samples. 
 
+- **Self-Supervised Dialogue Learning** 
+[[Paper]](https://arxiv.org/pdf/1907.00448.pdf)<br>
+Descrption: 
+
 - **Self-Supervised Learning for Contextualized Extractive Summarization** 
-[[Paper]](https://www.aclweb.org/anthology/P19-1214.pdff)<br>
+[[Paper]](https://www.aclweb.org/anthology/P19-1214.pdf)<br>
 Descrption: 
 
 
