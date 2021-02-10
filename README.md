@@ -1,6 +1,7 @@
 # Self-supervised Learning Paper Collections
  This repo lists recent self-supervised learning papers and their github pages. 
 
+
 ## General 
 - **A Theoretical Analysis of Contrastive Unsupervised Representation Learning**
 [[Paper]](https://arxiv.org/pdf/1902.09229.pdf)<br>
@@ -29,11 +30,11 @@ Descrption: This paper identifies alignment (closeness) of features from positiv
 
 - **Understanding Self-supervised Learning with Dual Deep Networks**
 [[Paper]](https://arxiv.org/pdf/2010.00578.pdf)<br>
-Descrption: 
+Descrption: This paper provides a systematic theoretical analysis of modern SSL methods with deep ReLU networks that also incorporates data augmentation, and show how the gradient-based SSL work inside the neural network.
 
 - **Understanding self-supervised learning using controlled datasets with known structure**
 [[Paper]](https://sslneuips20.github.io/files/CameraReadys%203-77/64/CameraReady/Understanding_self_supervised_learning.pdf)<br>
-Descrption: 
+Descrption: This paper investigates how SimCLR represents data with discrete, hierarchically structured classes, showing that the distances between examples in the representation space reflect the hierarchy.
 
 - **What Makes for Good Views for Contrastive Learning?**
 [[Paper]](https://arxiv.org/pdf/2005.10243.pdf)
@@ -44,12 +45,14 @@ Descrption: This paper first demonstrates that optimal views for contrastive rep
 ## Computer Vision
 
 - **Adversarial Self-Supervised Contrastive Learning**
-[[Paper]](https://arxiv.org/pdf/2006.07589.pdf)<br>
-Descrption: 
+[[Paper]](https://arxiv.org/pdf/2006.07589.pdf)
+[[Code]](https://github.com/Kim-Minseon/RoCL)<br>
+Descrption: This paper proposes a novel adversarial attack for unlabeled data, which makes the model confuse the instance-level identities of the perturbed data samples. Further, the authors present a self-supervised con trastive learning framework to adversarially train a robust neural network without labeled data, which aims to maximize the similarity between a random augmentation of a data sample and its instance-wise adversarial perturbation.
 
 - **A critical analysis of self-supervision, or what we can learn from a single image**
-[[Paper]](https://arxiv.org/pdf/1904.13132.pdf)<br>
-Descrption: 
+[[Paper]](https://arxiv.org/pdf/1904.13132.pdf)
+[[Code]](https://github.com/yukimasano/linear-probes)<br>
+Descrption: In this paper, the authors make several conclusion: (1) the weights of the early layers of deep networks contain limited information about the statistics of natural images, that (2) such low-level statistics can be learned through self-supervision just as well as through strong supervision, and that (3) the low-level statistics can be captured via synthetic transformations instead of using a large image dataset.
 
  - **A Multi-view Perspective of Self-supervised Learning**
 [[Paper]](https://arxiv.org/pdf/2003.00877.pdf)<br>
@@ -68,7 +71,8 @@ Descrption: The proposed semi-supervised learning framework comprises three step
 - **Bootstrap Your Own Latent A New Approach to Self-Supervised Learning**
 [[Paper]](https://arxiv.org/pdf/2006.07733.pdf)
 [[Code]](https://github.com/deepmind/deepmind-research/tree/master/byol)<br>
-Descrption: 
+Descrption: BYOL uses two neural networks, referred to as online and target networks, that interact and learn from each other. Starting from an augmented view of an
+BYOL image, trains its online network to predict the target network's representation of another augmented view of the same image.
 
 - **Contrast and Classify: Alternate Training for Robust VQA** 
 [[Paper]](https://arxiv.org/pdf/2010.06087.pdf)<br>
