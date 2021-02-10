@@ -1,16 +1,19 @@
 # Self-supervised Learning Paper Collections
  This repo lists recent self-supervised learning papers and their github pages. 
- 
- 
+
 ## General 
 - **A Theoretical Analysis of Contrastive Unsupervised Representation Learning**
 [[Paper]](https://arxiv.org/pdf/1902.09229.pdf)<br>
+Descrption: This paper formalizes the notion of semantic similarity by introducing latent classes. Similar pairs are assumed to be drawn from the same latent class. A downstream task is comprised of a subset of these latent classes.
 
 - **Predicting What You Already Know Helps: Provable Self-Supervised Learning**
 [[Paper]](https://arxiv.org/pdf/2008.01064.pdf)<br>
+Descrption: This paper proposes a mechanism based on approximate conditional independence (ACI) to explain why solving pretext tasks created from known information can learn representations that provably reduce downstream sample complexity.
 
 - **Self-Supervised Learning for Large-Scale Unsupervised Image Clustering**
-[[Paper]](https://arxiv.org/pdf/2008.10312.pdf)<br>
+[[Paper]](https://arxiv.org/pdf/2008.10312.pdf)
+[[Code]](https://github.com/Randl/kmeans_selfsuper)<br>
+Descrption: This paper proposes an additional way of evaluating self-supervised learning: training a clustering algorithm on extracted features in an unsupervised manner. The authors also show that self-supervised learning provides a strong baseline for unsupervised computer vision and mentions some possible direction for the current self-supervised methods performance improvement.
 
 - **Self-supervised Visual Feature Learning with Deep Neural Networks A Survey**
 [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9086055&casa_token=lpa6IChv6PcAAAAA:2cLIsBwmEtpF2gxKT6iWZ39s68I1D8SBxKo-tk3GWtRqy31Dv4IlHSIHozhkb1kiiXeJ7nrB&tag=1)<br>
