@@ -74,53 +74,37 @@ Descrption: The proposed semi-supervised learning framework comprises three step
 Descrption: BYOL uses two neural networks, referred to as online and target networks, that interact and learn from each other. Starting from an augmented view of an
 BYOL image, trains its online network to predict the target network's representation of another augmented view of the same image.
 
-- **Contrast and Classify: Alternate Training for Robust VQA** 
-[[Paper]](https://arxiv.org/pdf/2010.06087.pdf)<br>
-Descrption: 
+- **Contrastive Learning with Adversarial Examples**
+[[Paper]](https://arxiv.org/pdf/2010.12050.pdf)<br>
+Descrption: This paper introduces a new family of adversarial examples for constrastive learning and using these examples to define a new adversarial training algorithm for SSL, denoted as CLAE. When compared to standard CL, the use of adversarial examples creates more challenging positive pairs and adversarial training produces harder negative pairs by accounting for all images in a batch during the optimization.
 
 - **Contrastive Learning with Hard Negative Samples**
 [[Paper]](https://arxiv.org/pdf/2010.04592.pdf)<br>
-Descrption: 
-
-- **Contrastive Learning with Adversarial Examples**
-[[Paper]](https://arxiv.org/pdf/2010.12050.pdf)<br>
-Descrption: 
+Descrption: This paper formulates a method for sampling hard negative pairs, and an efficient sampling strategy that takes into account the lack of true dissimilarity information.
 
 - **Domain Generalization by Solving Jigsaw Puzzles**
 [[Paper]](https://arxiv.org/pdf/1903.06864.pdf)
 [[Code]](https://github.com/fmcarlucci/JigenDG)<br>
-Descrption: 
-
-- **Evaluation of Out-of-Distribution Detection Performance of Self-Supervised Learning in a Controllable Environment**
-[[Paper]](https://arxiv.org/pdf/2011.13120.pdf)<br>
-Descrption: 
-
-
-- **MixCo: -Mix: A Strategy for Regularizing Contrastive Representation Learning **
-[[Paper]](https://arxiv.org/pdf/2010.08887.pdfm)<br>
-Descrption: 
-
-
+Descrption: In this paper, the designed model learns the semantic labels in a supervised fashion, and broadens its understanding of the data by learning from self-supervised signals how to solve a jigsaw puzzle on the same images. This secondary task helps the network to learn the concepts of spatial correlation while acting as a regularizer for the classification task.
 
 - **MixCo: Mix-up Contrastive Learning for Visual Representation **
-[[Paper]](https://arxiv.org/pdf/2010.06300.pdf)<br>
-Descrption: 
-
-
+[[Paper]](https://arxiv.org/pdf/2010.08887.pdf)
+[[Code]](https://github.com/Lee-Gihun/MixCo-Mixup-Contrast)<br>
+Descrption: This paper proposes Mix-up Contrast (MixCo), which extends the contrastive learning concept to semi-positives encoded from the mix-up of positive and negative images. MixCo aims to learn the relative similarity of representations, reflecting how much the mixed images have the original positives
 
 - **Momentum Contrast for Unsupervised Visual Representation Learning**
 [[Paper]](https://arxiv.org/pdf/1911.05722.pdf)
 [[Code]](https://github.com/facebookresearch/moco)<br>
-Descrption: 
+Descrption: This paper builds a dynamic dictionary with a queue and a moving-averaged encoder enabling building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning
 
 - **Prototypical Contrastive Learning of Unsupervised Representations**
-[[Paper]](https://arxiv.org/pdf/2005.04966.pdf)<br>
-Descrption: 
+[[Paper]](https://arxiv.org/pdf/2005.04966.pdf)
+[[Code]](https://github.com/salesforce/PCL)<br>
+Descrption: This paper proposes prototypical contrastive learning, a unsupervised representation learning method that bridges contrastive learning and clustering.
 
 - **SelfMatch: Combining Contrastive Self-Supervision and Consistency for Semi-Supervised Learning**
 [[Paper]](https://arxiv.org/pdf/2101.06480.pdf)<br>
-Descrption: 
-
+Descrption: This paper introduces SelfMatch two stages: (1) self-supervised pre-training based on contrastive learning and (2) semi-supervised fine-tuning based on augmentation consistency regularization.
 
 - **Self-Supervised Domain Adaptation with Consistency Training**
 [[Paper]](https://arxiv.org/pdf/2010.07539.pdf)
@@ -128,21 +112,14 @@ Descrption:
 Descrption: This paper adds a consistency loss based on mutual information theory to the main taks loss and pretext loss in a domain adaption tasks. 
 
 - **Self-supervised Domain Adaptation for Computer Vision Tasks**
-[[Paper]](https://arxiv.org/pdf/1907.10915.pdf)<br>
-Descrption: 
-
-- **Semi-supervised Domain Adaptation via Minimax Entropy**
-[[Paper]](https://arxiv.org/pdf/1904.06487.pdf)<br>
-Descrption: 
-
-- **Self-supervised Domain Adaptation for Computer Vision Tasks**
-[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8883232)<br>
-Descrption: 
+[[Paper]](https://arxiv.org/pdf/1907.10915.pdf)
+[[Code]](https://github.com/Jiaolong/self-supervised-da)<br>
+Descrption: This paper proposes a generic method for domain adaptation with self-supervised visual representation learning. The authors focus on the image rotation prediction pretext learning task with prediction layer alignment and batch normalization calibration to further boost the self-supervised domain adaptation.
 
 - **Self-supervised Label Augmentation via Input Transformations**
-[[Paper]](https://arxiv.org/pdf/1910.05872.pdf)<br>
-Descrption: 
-
+[[Paper]](https://arxiv.org/pdf/1910.05872.pdf)
+[[Code]](https://github.com/hankook/SLA)<br>
+Descrption: This paper proposes a simple yet effective approach utilizing selfsupervision on fully-labeled datasets via learning a single unified task with respect to the joint distribution of the original and self-supervised labels. 
 
 - **Self-Supervised Learning of Pretext-Invariant Representations**
 [[Paper]](https://arxiv.org/pdf/1912.01991.pdf)<br>
@@ -150,18 +127,16 @@ Descrption: PIRL learns representations that are invariant to the transformation
 
 - **S4L: Self-Supervised Semi-Supervised Learning**
 [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhai_S4L_Self-Supervised_Semi-Supervised_Learning_ICCV_2019_paper.pdf)<br>
-Descrption: 
+Descrption: This paper bridges the gap between selfsupervision methods and semi-supervised learning by suggesting a framework (S4L) which can be used to turn any self-supervision method into a semi-supervised learning algorithm.
 
 - **Self-supervised Representation Learning with Relative Predictive Coding**
 [[Paper]](https://openreview.net/pdf?id=068E_JSq9O)<br>
-Descrption: PIRL learns representations that are invariant to the transformation t and retain semantic information.
-
-
-
+Descrption: This paper introduces Relative Predictive Coding (RPC), a new contrastive representation learning objective that maintains a good balance among training stability,
+minibatch size sensitivity, and downstream task performance. The key to the success of RPC is two-fold. First, RPC introduces the relative parameters to regularize the objective for boundedness and low variance. Second, RPC contains no logarithm and exponential score functions, which are the main cause of training instability in prior contrastive objectives.
 
 - **Towards Good Practices in Self-supervised Representation Learning**
 [[Paper]](https://arxiv.org/pdf/2012.00868.pdf)<br>
-Descrption: 
+Descrption: This paper makes several contributions based on theri emprical studies: 1) They empirically show why MLP head helps contrastive instance learning and visualize it using a feature inversion approach. 2) They present the semantic label shift problem caused by strong data augmentation in supervised learning and study the difference between supervised and contrastive learning. 3) They investigate on negative samples and find that good practices can help to eliminate the need of using large number of them, thereby could simplify the framework design.
 
 - **Universal Domain Adaptation through Self-Supervision**
 [[Paper]](https://arxiv.org/pdf/2002.07953.pdf)
@@ -169,17 +144,14 @@ Descrption:
 Descrption: This paper proposed two novel self-supervised techniques, such as neighborhood clustering and entropy separation, dealing with arbitory category shift in domain adaptation tasks. 
 
 - **Unsupervised Domain Adaptation through Self-Supervision**
-[[Paper]](https://arxiv.org/pdf/1909.11825.pdf)<br>
-Descrption: 
+[[Paper]](https://arxiv.org/pdf/1909.11825.pdf)
+[[Code]](https://github.com/yueatsprograms/uda_release)<br>
+Descrption: The key contributiopn of this work is to draw a connection between unsupervised domain adaptation and self-supervised learning. The main idea is to achieve alignment between the source and target domains by training a model on the same task in both domains simultaneously. 
 
 - **Unsupervised Intra-domain Adaptation for Semantic Segmentation through Self-Supervision**
 [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Pan_Unsupervised_Intra-Domain_Adaptation_for_Semantic_Segmentation_Through_Self-Supervision_CVPR_2020_paper.pdf)
 [[Code]](https://github.com/feipan664/IntraDA)<br>
 Descrption: This paper applied self-supervised technique to minimize both inter-domain and intra-domain gap simultaneously for domain adaptation tasks in semantic segmentation.
-
-- **Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning**
-[[Paper]](https://arxiv.org/pdf/1704.03976.pdf)<br>
-Descrption: 
 
 
 ## Natural Language Processing
@@ -195,22 +167,23 @@ Descrption: Contrast sets provide a local view of a model's decision boundary, w
 
 - **Self-Supervised Dialogue Learning** 
 [[Paper]](https://arxiv.org/pdf/1907.00448.pdf)<br>
-Descrption: 
+Descrption: This paper We proposes a general framework to jointly learn self-supervised network (SSN) and the dialogue models, where the sequential order in dialogues can be explicitly used to guide the utterance generation.
 
 - **Self-Supervised Learning for Contextualized Extractive Summarization** 
-[[Paper]](https://www.aclweb.org/anthology/P19-1214.pdf)<br>
-Descrption: 
+[[Paper]](https://www.aclweb.org/anthology/P19-1214.pdf)
+[[Code]](https://github.com/hongwang600/Summarization)<br>
+Descrption: This paper aims to improve contextualized extractive summarization task by introducing three auxiliary pre-training tasks, i.e., mask, replace, and swithc, that learn to capture the document-level context in a self-supervised fashion.
 
 
 ## Others
+
 - **Contrastive Multi-View Representation Learning on Graphs**
 [[Paper]](https://arxiv.org/pdf/2006.05582.pdf)<br>
 Descrption: This paper applis self-supervised approach to learn contrasting sturctural views of graphs. The authors mention contrasting encodings form first-order neighbors and a graph conffusion is more effective than multi-scale encodings in some graph classiification benchmarks. 
 
 - **Federated Self-Supervised Learning of Multi-Sensor Representations for Embedded Intelligence**
 [[Paper]](https://arxiv.org/pdf/2007.13018.pdf)<br>
-Descrption: 
-
+Descrption: This paper hypothesizes that the fusion of self supervision with federated learning could result in an effective method for learning from unlabeled, private, and diverse types of sensory data, which is crucial for several embedded (personalized) machine learning tasks.
 
 ## Blogs 
 - **Self-Supervised Representation Learning**
@@ -218,3 +191,6 @@ Descrption:
 
 - **Contrastive Learning**
 [[Link]](https://github.com/HobbitLong/PyContrast)
+
+- **Awesome Self-supervised Learning**
+[[Link]](https://github.com/jason718/awesome-self-supervised-learning)
