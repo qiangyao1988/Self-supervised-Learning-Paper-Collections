@@ -47,7 +47,7 @@ Descrption: This paper first demonstrates that optimal views for contrastive rep
 - **Adversarial Self-Supervised Contrastive Learning**
 [[Paper]](https://arxiv.org/pdf/2006.07589.pdf)
 [[Code]](https://github.com/Kim-Minseon/RoCL)<br>
-Descrption: This paper proposes a novel adversarial attack for unlabeled data, which makes the model confuse the instance-level identities of the perturbed data samples. Further, the authors present a self-supervised con trastive learning framework to adversarially train a robust neural network without labeled data, which aims to maximize the similarity between a random augmentation of a data sample and its instance-wise adversarial perturbation.
+Descrption: This paper proposes a novel adversarial attack for unlabeled data, which makes the model confuse the instance-level identities of the perturbed data samples. Further, the authors present a self-supervised contrastive learning framework to adversarially train a robust neural network without labeled data, which aims to maximize the similarity between a random augmentation of a data sample and its instance-wise adversarial perturbation.
 
 - **A critical analysis of self-supervision, or what we can learn from a single image**
 [[Paper]](https://arxiv.org/pdf/1904.13132.pdf)
