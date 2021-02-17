@@ -87,7 +87,7 @@ Descrption: This paper formulates a method for sampling hard negative pairs, and
 [[Code]](https://github.com/fmcarlucci/JigenDG)<br>
 Descrption: In this paper, the designed model learns the semantic labels in a supervised fashion, and broadens its understanding of the data by learning from self-supervised signals how to solve a jigsaw puzzle on the same images. This secondary task helps the network to learn the concepts of spatial correlation while acting as a regularizer for the classification task.
 
-- **MixCo Mix-up Contrastive Learning for Visual Representation **
+- **MixCo： Mix-up Contrastive Learning for Visual Representation**
 [[Paper]](https://arxiv.org/pdf/2010.08887.pdf)
 [[Code]](https://github.com/Lee-Gihun/MixCo-Mixup-Contrast)<br>
 Descrption: This paper proposes Mix-up Contrast (MixCo), which extends the contrastive learning concept to semi-positives encoded from the mix-up of positive and negative images. MixCo aims to learn the relative similarity of representations, reflecting how much the mixed images have the original positives
